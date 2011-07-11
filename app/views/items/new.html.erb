@@ -1,0 +1,5 @@
+<%= form_for @item do |item_form| %>
+	<%= item_form.label :inventory_number, "Item Number" %>
+	<%= item_form.text_field :inventory_number %>
+	<%= item_form.submit %>
+<% end %>
